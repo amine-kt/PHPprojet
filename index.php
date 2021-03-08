@@ -10,19 +10,12 @@
 </head>
 
 <body>
-
-    <header>
-        <h1>
-            Yokuso Watakshi no Velvet Room
-        </h1>
-    </header>
-
     <main>
         <section>
-            <form action="" method="post">
-                <label for="">Login</label><br>
-                <input type="text" name="Login" placeholder="Login..."><br>
-                <label for="">Password</label><br>
+            <form action="conn.php" method="post">
+                <label for="">Login :</label><br>
+                <input type="text" name="login" placeholder="Login..."><br>
+                <label for="">Password :</label><br>
                 <input type="text" name="Pasword" placeholder="Password..."><br>
                 <input type="submit" value="Connexion" class="button">
             </form>

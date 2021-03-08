@@ -1,0 +1,22 @@
+body {
+    background-image: linear-gradient(to right, #051937, #2f365b, #585681, #8478a8, #b39cd0);
+}
+
+header {
+    padding: 2em;
+    a {
+        padding: 1%;
+        color: white;
+        margin-left: 80em;
+        border-radius: 15px;
+        text-decoration: none;
+        background-color: red;
+        border: solid 1px red;
+        transition-duration: 0.7s;
+    }
+    a:hover {
+        color: red;
+        transition-duration: 0.7s;
+        background-color: #ffffff00;
+    }
+}
